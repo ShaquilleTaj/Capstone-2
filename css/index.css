@@ -1,0 +1,54 @@
+body {
+    border-right: black;
+    background-image: url('https://wallpapercave.com/wp/wp2412220.jpg');
+   background-size: cover;
+  
+   border-left: black;
+   border-width: 20px;
+ }
+ .backg{ background-color: rgba(7, 1, 1, 0.397);}
+ .container{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 7, 7, 0.82);
+    
+    }
+#title{font-size: 10em;
+text-align: center; width: 90%;height: 210px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#National{font-size: 3em;
+    text-align: center;width: 32.5%;}
+.wow{
+    background-color: rgba(55, 26, 7, 0.696);
+    color: rgb(202, 212, 205);
+    width: 70%;
+    height: 100px;
+}
+img{
+    border: 5px solid;
+    height: 400px;
+}
+button{
+display: inline-block;
+outline: 0;
+appearance: none;
+padding: 0px 12px;
+border: 0px solid transparent;
+border-radius: 4px;
+text-decoration: none;
+cursor: pointer;
+background-color: rgb(9, 128, 76);
+box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+color: rgb(255, 255, 255);
+font-size: 28px;
+font-weight: 400;
+height: 70px;
+transition: all 150ms ease-in-out 0s;
+width: 100px;
+:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 97, 73);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+}
+}
+#mountain{font-size: 3em;
+    text-align: center;width: 33%;}

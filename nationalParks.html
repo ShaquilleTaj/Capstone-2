@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks</title>
+    <link href="css/park.css" rel="stylesheet">  
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
+    <script src="scripts/parkscript.js"></script>
+</head>
+<body><center>
+    <div class="Title">
+        National Parks
+    </div>
+    <div class="search-container">
+        <div class="search-label">
+            Search By:
+        </div>
+        <div id="rad">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="locRad">
+                <label class="form-check-label" for="locRad">
+                    Location   
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="parkRad">
+                <label class="form-check-label" for="parkTypeRad">
+                    Park Type    
+                </label>
+            </div>
+            <div class="button-container">
+                <button id="nextBtn">Next</button>
+                <button id="allBtn">View All</button>
+                <button id="resetBtn">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="locationSection" class="search-section">
+        <h4>Search by Location</h4>
+        <div class="col">
+            <label for="location" class="form-label"> <b> Select Location</b></label>
+            <select id="location" class="form-select" required>
+                <option selected>Open this select menu</option>
+            </select>
+            <div>
+                <button id="selectLocationBtn" class="btn btn-dark">Select</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="parkTypeSection" class="search-section" style="display: none;">
+        <h4 style="padding-top: 40px;">Search by Park Type</h4>
+        <div class="col">
+            <label for="parkType" class="form-label"> <b> Park Type</b></label>
+            <select id="parkType" class="form-select" required>
+                <option selected disabled>Open this select menu</option>
+            </select>
+            <div>
+                <button id="selectParkTypeBtn" class="btn btn-dark">Select</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultSection" class="result-section" style="display: none;">
+        <div style="padding-top: 30px;">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p id="parkResult"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultForAllSection" class="result-section" style="display: none;">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header" style="text-align: center;">
+                        <b>  All Parks</b>
+                    </div>
+                    <div class="card-body">
+                        <p id="parkResult2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</center></body>
+</html>

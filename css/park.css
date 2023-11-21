@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/single-bench-park-tree_181624-1965.jpg");
+    background-size: cover;
+}
+div{
+ background-color: rgba(19, 73, 15, 0.315);
+
+ color: aliceblue;
+}
+
+.Title{
+    font-size: 8em;
+}
+.search-label{
+    font-size: 4em;
+}
+.form-check{
+    font-size: 2em;
+}
